@@ -1,0 +1,170 @@
+.intro{
+    color:black;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: large;
+    text-shadow: 2px 2px 2px rgb(176, 176, 176);
+    padding-bottom: 40px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.titre{
+    color:rgb(255, 255, 255);
+    text-align : center;
+    font-size: 4em;
+    font-family: "Playfair Display", serif;
+    font-style:italic;
+    text-shadow: 2px 2px 2px rgb(176, 176, 176);
+    padding: 100px; /*Espace autour du texte*/
+    background-image: url(images/bannière.jpg);
+    background-size: cover; /*Image couvre toute la zone*/
+    background-position: center; /*Centre l'image*/
+}
+.titre2upp{
+    color:rgb(255, 255, 255);
+    text-align : center;
+    font-size: 4em;
+    font-family: "Playfair Display", serif;
+    font-style:italic;
+    background-image: url(images/UPPER.jpg);
+    background-size:100%;
+    background-position: center;
+    text-align : center;
+    font-size: 4em;
+    padding:100px;
+    box-sizing: border-box;
+}
+.titre2gl{
+    color:rgb(255, 255, 255);
+    text-align : center;
+    font-size: 4em;
+    font-family: "Playfair Display", serif;
+    font-style:italic;
+    background-image: url(images/LOWERGLUTES.jpg);
+    background-size:100%;
+    background-position: center;
+    text-align : center;
+    font-size: 4em;
+    padding:100px;
+}
+.titre2q{
+    color:rgb(255, 255, 255);
+    text-align : center;
+    font-size: 4em;
+    font-family: "Playfair Display", serif;
+    font-style:italic;
+    background-image: url(images/LOWERQUADS.jpg);
+    background-position: center;
+    background-size:100%;
+    text-align : center;
+    font-size: 4em;
+    padding:100px;
+}
+.mot{
+    font-weight: 700;
+}
+body{
+    background: linear-gradient(to right, #ffffff, #bebebe);
+}
+.upper{
+    color: white;
+    background-image: url(images/UPPER.jpg);
+    background-size: 100%; /*Image couvre toute la zone*/
+    background-position: center; /*Centre l'image*/
+    transition: background-size 0.8s ease, background-position 0.8s ease;
+    text-align: end;
+    padding:200px;
+}
+.lowerg{
+    background-image: url(images/LOWERGLUTES.jpg);
+    background-size: 100%; /*Image couvre toute la zone*/
+    background-position: center; /*Centre l'image*/
+    transition: background-size 0.8s ease, background-position 0.8s ease;
+    text-align: end;
+    padding:200px;
+}
+.lowerq{
+    background-image: url(images/LOWERQUADS.jpg);
+    background-size: 100%; /*Image couvre toute la zone*/
+    background-position: center; /*Centre l'image*/
+    transition: background-size 0.8s ease, background-position 0.8s ease;
+    text-align: end;
+    padding:200px;
+}
+.upper:hover,
+.lowerg:hover,
+.lowerq:hover {
+    background-size: 120%;       
+    background-position: right center; 
+}
+.seanc{
+    color:white;
+    font-size: larger;
+    text-decoration: none;
+}
+.seanc:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.photo{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.maitrise{
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    text-decoration: none;
+}
+.maitrise2{
+    text-align: end;
+    padding: 50px;
+}
+.maitrise:hover{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+h3{
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.ligne {
+    display: flex;
+    align-items: flex-start; /* aligne le haut de l'image et du texte */
+}
+.texte {
+    margin-left: 20px;
+    font-size: large;
+}
+.coordonnees {
+    display: flex;
+    padding:10px;
+    justify-content: space-between; /* un à gauche, un à droite */
+    align-items: center;
+    font-size: large;
+    width: 100%;               /* occupe toute la largeur */
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #9d8eb0;
+}
+
+.insta, .mail {
+    width: 30px;
+    height: auto;
+    vertical-align: bottom;
+    margin-right: 8px; /*  espace entre icon et texte */
+}
+.insta-block{
+    font-family: "Playfair Display", serif;
+}
+
+.mail-block{
+    font-family: "Playfair Display", serif;
+}
