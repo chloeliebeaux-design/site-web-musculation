@@ -1,7 +1,7 @@
 #Site Web de Musculation - Projet HTML/CSS
 
 Site web simple et responsive développé pour mettre en pratique les bases de l'intégration web : structure HTML, mise en page CSS et responsive design. 
-Ce site me permet de m'y retrouver de façon claire dans mon programme de msuculation et d'aider des débutants en recherche d'exercices.
+Ce site me permet de m'y retrouver de façon claire dans mon programme de musculation et d'aider des débutants en recherche d'exercices.
 
 Fonctionnalités :
 - Page d'accueil moderne présentant le concept du site
